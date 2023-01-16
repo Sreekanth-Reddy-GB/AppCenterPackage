@@ -8,7 +8,10 @@
 import SwiftUI
 
 public struct AppCenterAppButton: View {
-    public var body: some Scene {
+    
+    public init() { }
+    
+    public var body: some View {
         Button(action: {
             print("Hello World Tapped!")
         }) {
