@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct AppCenterAppButton: View {
-    var body: some Scene {
+public struct AppCenterAppButton: View {
+    public var body: some Scene {
         Button(action: {
             print("Hello World Tapped!")
         }) {
